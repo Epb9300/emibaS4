@@ -1,3 +1,4 @@
+#hola
 """
 Este módulo proporciona una función de ejemplo para demostrar el uso de docstrings.
 
@@ -15,3 +16,4 @@ def example_function():
 
 if __name__ == "__main__":
     example_function()
+    
