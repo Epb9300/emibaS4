@@ -1,8 +1,17 @@
+"""
+Este módulo proporciona una función de ejemplo para demostrar el uso de docstrings.
 
-#comentario para verlo
+El módulo contiene una función que imprime un mensaje y retorna True.
+"""
 
-#comentario para verlo en com 3
+def example_function():
+    """
+    Esta es una función de ejemplo.
 
-#ahora tras el pull se ha unido la rama con main
+    Imprime 'hola' y retorna True para demostrar el uso de docstrings en funciones.
+    """
+    print("hola")
+    return True
 
-print("hola Mundo!")
+if __name__ == "__main__":
+    example_function()
